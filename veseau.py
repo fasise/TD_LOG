@@ -55,6 +55,12 @@ class Airfact(Vaisseau):
     def go_to(self, x, y, z):
         if z==1 :
             super().go_to(x,y,z)
+            
+            
+            # espace
+            
+            
+            
     def recevoir(self,x,y,z):
         joueur= (x,y,z)
         for i in self.vaisseaux:
